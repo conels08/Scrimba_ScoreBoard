@@ -1,0 +1,92 @@
+@font-face {
+    font-family: Cursed Timer ULiL;
+    src: url("/CursedTimerUlil-Aznm.ttf");
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+}
+
+
+  /* h3 */
+.team-name {
+    color: #EEEEEE;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 40px;
+    font-weight: 700;
+}
+
+.container {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    background-color: #1B244A;
+    width: 575px;
+    height: 385px;
+    border-radius: 5px;
+}
+
+.left-right-wrappers {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    /* margin-top: 60px; */
+    width: 155px;
+}
+
+.score-display {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 90px;
+    font-weight: 400;
+    color: #F94F6D;
+    background-color: #080001;
+    margin-top: 21px;
+    margin-bottom: 14px;
+    width: 155px;
+    height: 120px;
+    border-radius: 5px;
+}
+
+.score-display,
+button {
+    font-family: Cursed Timer ULiL;
+}
+
+button {
+    border-radius: 5px;
+    border: 2px solid #9AABD8;
+    height: 45px;
+}
+
+.btn-container {
+    display: flex;
+    justify-content: space-around;
+    width: 155px;
+    margin-top: 2px;
+}
+
+.add-btn {
+    background-color: #1B244A;
+    color: #9AABD8;
+    width: 45px;
+}
+
+.sub-btn {
+    color: #F94F6D;
+    width: 35%;
+}
+
+.reset-btn {
+    background-color: #F94F6D;
+    width: 60%;
+}
